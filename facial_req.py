@@ -17,13 +17,13 @@ import pickle
 import time 
 import cv2 
 
-#Initialize 'currentname' to trigger only when a new person is identified.
+# Initialize 'currentname' to trigger only when a new person is identified.
 currentname = "unknown"
-#Determine faces from encodings.pickle file model created from train_model.py (Refer to Notes Page)
+# Determine faces from encodings.pickle file model created from train_model.py 
+# (Refer to Notes Page)
 encodingsP = "encodings.pickle"
 
-# load the known faces and embeddings along with OpenCV's Haar
-# cascade for face detection
+# load the known faces and embeddings 
 print("[INFO] loading encodings and face detector")
 data = pickle.loads(open(encodingsP, "rb").read())
 
