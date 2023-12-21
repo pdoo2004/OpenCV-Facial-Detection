@@ -1,0 +1,4 @@
+1. Run headshots.py and click space to capture image of person; 
+2. Open Terminal, type in cd facial_recognition
+3. Then, type in python train_model.py
+4. Then, python facial_req.py
